@@ -13,16 +13,21 @@ npm install --save my-first-bio
 ## Usage
 
 ```jsx
-import React, { Component } from 'react'
+import React from 'react'
 
-import MyComponent from 'my-first-bio'
+import { Bio, Form } from 'my-first-bio'
 
-class Example extends Component {
-  render () {
-    return (
-      <MyComponent />
-    )
-  }
+export default function App() {
+  return (
+    <div>
+      <Bio
+        name="Paulo Janai"
+        age={22}
+        work="Developer Frontend and UX/UI Design"
+      />
+      <Form />
+    </div>
+  )
 }
 ```
 
