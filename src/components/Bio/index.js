@@ -2,7 +2,7 @@ import React from 'react'
 
 import styles from './styles.css'
 
-export default function Bio({ name, age, work }) {
+export const Bio = ({ name, age, work }) => {
   return (
     <div className={styles.bio}>
       Name: <h1>{name}</h1>
