@@ -1,13 +1,15 @@
-import React, { Component } from 'react'
+import React from 'react'
 
-import ExampleComponent from 'my-first-bio'
+import Bio from 'my-first-bio'
 
-export default class App extends Component {
-  render () {
-    return (
-      <div>
-        <ExampleComponent text='Modern React component module' />
-      </div>
-    )
-  }
+export default function App() {
+  return (
+    <div>
+      <Bio
+        name="Paulo Janai"
+        age={22}
+        work="Developer Frontend and UX/UI Design"
+      />
+    </div>
+  )
 }
