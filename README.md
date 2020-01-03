@@ -23,7 +23,7 @@ export default function App() {
       <Bio
         name="Paulo Janai"
         age={22}
-        work="Developer Frontend and UX/UI Design"
+        work="Developer Frontend and UX/UI Designer"
       />
       <Form />
     </div>
