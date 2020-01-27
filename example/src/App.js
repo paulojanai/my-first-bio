@@ -10,7 +10,6 @@ export default function App() {
         age={22}
         work="Developer Frontend and UX/UI Design"
       />
-      <Form />
     </div>
   )
 }
